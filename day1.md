@@ -6,7 +6,7 @@
 - UAT ต้องใช้ user จริงทำ และห้ามบอกว่าคลิกตรงไหน
 - Microservice มีข้อเสียถ้าไม่เข้าใจหลักการ
 
-### ปัญหาของ Monolith
+### ปัญหาของระบบแบบ Monolith
 - ตรงกลางล่มตายหมด
 - ส่วนใหญ่จะแบ่งเป็น layers เช่น Frontend, Backend, Database
 - ระบบ Legacy จะแก้ไขยาก กระทบหลายส่วน
@@ -14,4 +14,7 @@
 - แต่ละ Module ไม่แยกเป็นอิสระจากกัน 
 - มี Common Module ที่แชร์กันไปเยอะ ทำให้เวลาแก้แล้วกระทบหลายส่วน
 - ใน Database มี tables เยอะเกิน แต่ละ table มี fields เยอะเกิน (เคยมีตัวอย่าง 3,000 fields เผื่อไว้เติม field ไม่ต้องการ alter เพราะมันเป็น cost)
+- คนพัฒนามีอายุการทำงานโค้ดน้อย เพราะเติบโตไปทำส่วนอื่น และเน้นประชุมเยอะขึ้น
+- บางครั้งปัญหาเกิดจากการ Update Firmware ของ Database
+- Do all modules need to use the same Database, Language and Runtime .. ?
 
