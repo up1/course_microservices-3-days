@@ -53,6 +53,9 @@
 - อย่าใช้ Database ที่เดียวกันทั้งหมด
 - ต้องมี Small team ที่คอยดูแลแต่ละ service สามารถจบงานด้วยทีมตัวเองได้ 
 
+### Drawbacks of Microservice
+- หาความซับซ้อนให้เจอ แก้ให้ตรงจุด
+
 ### ** Notes
 - Architecture ที่ดีที่สุดอยู่บน Production นั่นและ!!
 - ยิ่งมี standard เยอะยิ่ง cost เยอะ
@@ -64,3 +67,4 @@
 - ระบบ Network มักล่มได้ตลอดเวลา (อย่าไว้ใจ)
 - เลือก DB ให้เหมาะกับงานนั้นๆ (ไม่ใช่เอะอะๆ ก็ RMDB)
 - งานงอกจะไม่มีถ้าเราคุยกัน :)
+- Yelp เป็นระบบเว็บสำหรับการ review https://github.com/yelp/service-prinsciple
