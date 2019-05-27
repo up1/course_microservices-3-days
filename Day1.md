@@ -57,6 +57,7 @@
 - มี logs เก็บทุกการ change
 - Microservices ต้องการคนหลายกลุ่มมาช่วยกันออกแบบ
 - ออกแบบและทำความเข้าใจ Scenarios ก่อน ถึงแยกเป็น Microservices
+- ทำ Microservice ต้องมี API gateway
 - เพิ่มเติม https://microservices.io
 
 ### Drawbacks of Microservice (ข้อเสีย)
@@ -71,6 +72,18 @@
   แนวคิดคือ `Business -> Technical concep` (What เราต้องทำอะไร -> How เราต้องทำอย่างไร)
 3. Define service APIs and collaborations
     - แต่ละ service คุยกันยังไง
+    
+### Interaction Styles
+||One-to-One|One-to-Many|
+|---|---|---|
+|Synchronous|Request/response|-|
+|Asynchronous|Async request/response|Publish/subscribe|
+|Asynchronous|Notification|Publish/async subscribe|
+
+- อะไรที่เกี่ยวกับการเงินต้องเป็น Synchronous
+- Asynchronous ใช้กับเรื่องทั่วไป เช่น โพสต์ facebook
+- Notification เป็น Async แบบ One-to-One ไม่ใช่ Boardcast
+- ถ้ามี services จำนวนมาก ทำระบบค้นหา service
 
 ### ** Notes
 - Architecture ที่ดีที่สุดอยู่บน Production นั่นแหละ!!
