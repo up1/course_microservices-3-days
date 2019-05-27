@@ -9,3 +9,4 @@
 ### Monolith
 - ตรงกลางล่มตายหมด
 - ส่วนใหญ่จะแบ่งเป็น layers เช่น Frontend, Backend, Database
+- ระบบ Legacy จะแก้ไขบ้าง
