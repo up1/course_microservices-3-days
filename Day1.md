@@ -57,7 +57,7 @@
 - มี logs เก็บทุกการ change
 - Microservices ต้องการคนหลายกลุ่มมาช่วยกันออกแบบ
 - ออกแบบและทำความเข้าใจ Scenarios ก่อน ถึงแยกเป็น Microservices
-- ทำ Microservice ต้องมี API gateway
+- ทำ Microservice ถ้าไม่เยอะมากทำแค่ Reverse proxy ก็ได้ แต่ถ้าเริ่มเยอะถึงต้องมี API gateway
 - เพิ่มเติม https://microservices.io
 
 ### Drawbacks of Microservice (ข้อเสีย)
@@ -85,6 +85,12 @@
 - Notification เป็น Async แบบ One-to-One ไม่ใช่ Boardcast
 - ถ้ามี services จำนวนมาก ทำระบบค้นหา service
 
+### Circuit Breaker pattern
+- ควรมีเมื่อมี service ใดพัง
+- ทุกๆ services ควรมี health check ว่ายังปกติอยู่มั้ย 
+- เมื่อ service พัง Circuit Beaker จะทำงาน(Open) อัตโนมัติ อยู่ที่เราว่าจะออกแบบให้ CB ทำอะไรบ้าง
+- CB ทำงานกับระบบแบบ Syncronous
+ 
 ### ** Notes
 - Architecture ที่ดีที่สุดอยู่บน Production นั่นแหละ!!
 - ยิ่งมี standard เยอะยิ่ง cost เยอะ
