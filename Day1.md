@@ -53,13 +53,17 @@
 - อย่าใช้ Database ที่เดียวกันทั้งหมด
 - ต้องมี Small team ที่คอยดูแลแต่ละ service สามารถจบงานด้วยทีมตัวเองได้
 - ควรจะตรวจสอบได้ว่าแต่ละ Request วิ่งไปที่ service ไหนบ้าง
+- ควรตอบได้ว่าแต่ละ service มีการใช้ success rate เท่าไหร่ fail rate เท่าไหร่
+- มี logs เก็บทุกการ change
+- Microservices ต้องการคนหลายกลุ่มมาช่วยกันออกแบบ
+- https://microservices.io
 
 ### Drawbacks of Microservice (ข้อเสีย)
 - การเรียก service ไม่ควรเรียกลึกเกิน 3 services (Core -> Service1 -> Service2 -> Service3)
 - services ในองค์กรมันจะเป็นแบบ graph services การจัดการทำได้ยุ่งยาก
 
 ### ** Notes
-- Architecture ที่ดีที่สุดอยู่บน Production นั่นและ!!
+- Architecture ที่ดีที่สุดอยู่บน Production นั่นแหละ!!
 - ยิ่งมี standard เยอะยิ่ง cost เยอะ
 - การโอนเงินสำหรับธนาคารเป็น Infra service เพราะเป็น core
 - Netflix ใช้ AWS เป็นหลัก (ทำ AWS ล่มในช่วงแรก)
@@ -72,3 +76,6 @@
 - Yelp เป็นระบบเว็บสำหรับการ review https://github.com/yelp/service-principles
 - หาความซับซ้อนให้เจอ แก้ให้ตรงจุด
 - องค์กรควรทำ services dependency (Blue print) วาดภาพออกมาแล้วต้องเป็น Tree ไม่ควรเป็น Graph
+- Logs ต่างๆ ที่เราเก็บแยกกันควรทำให้เอามาใช้ประโยชน์
+- ส่ิงที่แปลกประหลาดมากคือ เรามักจะไป maintain ของที่ไม่ได้ใช้
+- ถ้าระบบเดิมไม่มีปัญหา ก็ไม่ต้องใช้ Microservices เพราะการแยกบางทีก็ทำให้เกิดปัญหา
