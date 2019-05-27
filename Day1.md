@@ -51,10 +51,12 @@
 - ถ้า service เดิมมีการแบบ Major change ควรสร้าง service ใหม่ไปเลย
 - การเปลี่ยนมาเป็น `Microservice` เราต้องคุมกำเนิด `Monolith`
 - อย่าใช้ Database ที่เดียวกันทั้งหมด
-- ต้องมี Small team ที่คอยดูแลแต่ละ service สามารถจบงานด้วยทีมตัวเองได้ 
+- ต้องมี Small team ที่คอยดูแลแต่ละ service สามารถจบงานด้วยทีมตัวเองได้
+- ควรจะตรวจสอบได้ว่าแต่ละ Request วิ่งไปที่ service ไหนบ้าง
 
-### Drawbacks of Microservice
-- หาความซับซ้อนให้เจอ แก้ให้ตรงจุด
+### Drawbacks of Microservice (ข้อเสีย)
+- การเรียก service ไม่ควรเรียกลึกเกิน 3 services (Core -> Service1 -> Service2 -> Service3)
+- services ในองค์กรมันจะเป็นแบบ graph services การจัดการทำได้ยุ่งยาก
 
 ### ** Notes
 - Architecture ที่ดีที่สุดอยู่บน Production นั่นและ!!
@@ -67,4 +69,6 @@
 - ระบบ Network มักล่มได้ตลอดเวลา (อย่าไว้ใจ)
 - เลือก DB ให้เหมาะกับงานนั้นๆ (ไม่ใช่เอะอะๆ ก็ RMDB)
 - งานงอกจะไม่มีถ้าเราคุยกัน :)
-- Yelp เป็นระบบเว็บสำหรับการ review https://github.com/yelp/service-prinsciple
+- Yelp เป็นระบบเว็บสำหรับการ review https://github.com/yelp/service-principles
+- หาความซับซ้อนให้เจอ แก้ให้ตรงจุด
+- องค์กรควรทำ services dependency (Blue print) วาดภาพออกมาแล้วต้องเป็น Tree ไม่ควรเป็น Graph
