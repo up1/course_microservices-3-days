@@ -6,5 +6,6 @@
 - UAT ต้องใช้ user จริงทำ และห้ามบอกว่าคลิกตรงไหน
 - Microservice มีข้อเสียถ้าไม่เข้าใจหลักการ
 
-## Monolith
+### Monolith
 - ตรงกลางล่มตายหมด
+- ส่วนใหญ่จะแบ่งเป็น layers เช่น Frontend, Backend, Database
