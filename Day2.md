@@ -1,7 +1,5 @@
 # Day 2 (Develop)
 
-- https://grpc.io
-
 ### Service Discovery
 - มีการ Register Discovery ก่อน แต่ละ Service บอกว่าใช้เครื่องไหนบ้าง
 - Service Discovery มีการเช็คผ่าน Health check ว่า Service ยังทำงานปกติอยู่มั้ย?
@@ -12,26 +10,33 @@
 - เป็น Syncronuos รูปแบบหนึ่ง
 
 ### 12 Factor App
-1. ...
 9. **Disposability** มีความทนทานถึงขีดสุด ด้วยการ Start ได้อย่างรวดเร็ว และ Shutdown อย่างสง่างาม
 > เพิ่มเติม https://12factor.net.
+
 ---
+
 ## Asynchronous
 ### Messaging pattern
 - ต้องประกอบด้วย ผู้ส่ง -> คนกลาง -> ผู้รับ
 - เมื่อมีอะไรที่ต้องจัดลำดับคิว จะมีท่อเพื่อไว้จัดคิว
-- จะแบบ Topic หรือ PubSub คือ 1 event จะไปได้หลายที่ [1](#1)*(1)*
+- จะแบบ Topic หรือ PubSub คือ 1 event จะไปได้หลายที่ *(1)*
 - Microservices จะใช้รูปแบบนี้มาก
 - แต่ละ Service จะเป็นทั้งผู้ส่ง(Sender) และ ผู้รับ(Receiver)
 - ถ้ามี Request เข้ามาเยอะมาก แล้วมีบาง Request ที่พัง ต้องมีตัวช่วยจัดการเพราะมันเป็น un-blocking
-
-```
+```javascript
 a = 1
 b = 1
 c = a + b
 // c = จะได้ค่าไม่เหมือนเดิมเพราะมันทำงานทุกบรรทัดพร้อมกัน
 ```
 
-> *(1)* เช่นกรณีที่มีการเปลี่ยนข้อมูล Product แล้วทุกๆ Service ที่ใช้ข้อมูล Product เปลี่ยนตามด้วย
+### Drawbacks (ข้อเสีย)
+- อาจมีปัญหาคอขวด
+- มีความซับซ้อนสูง
+- Single point of failure
 
+## Other notes
 - Line App ใช้ Kafka เป็นตัวส่ง Message ทั้งหมด
+- https://grpc.io
+
+> *(1)* เช่นกรณีที่มีการเปลี่ยนข้อมูล Product แล้วทุกๆ Service ที่ใช้ข้อมูล Product เปลี่ยนตามด้วย
