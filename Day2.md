@@ -35,12 +35,6 @@ c = a + b
 - มีความซับซ้อนสูง
 - Single point of failure
 
-## NoSQL
-- Document
-- Key-Value
-- Column base
-- Graph
-
 ### CAP Theorem
 - คือ Consistency, Availability, Partition Tolerance
 - ข้อแม้คือเลือกได้แค่ 2 ใน 3 อย่าง
@@ -48,6 +42,36 @@ c = a + b
 - ถ้าเลือก C, P ระบบต้อง Sync กัน
 - ฝากเช็คธนาคารทำไมไม่ Consistency? เพราะใช้ Cron Job รันตอนเที่ยง ทำให้ฝากวันนี้หลังบ่ายอาจได้พรุ่งนี้
 - ในโลกของระบบแบบ Distributed จะอ้างอิงถึง CAP Theorem
+
+### Event-based communication
+- Message กับ Event ต่างกันอย่างไร? `Message` จะระบุผู้รับชัดเจน ส่วน `Event` ไม่ระบุปลายทาง มีหน้าที่แค่ Boardcast ข้อมูลอย่างเดียว
+- 1 Message อาจทำให้เกิดได้หลาย Events
+
+## Synchronous process
+- Client Service(ผู้เรียก) จะ Asynchronous ส่วน Services(ดำเนินการ) จะเป็นแบบ Synchronous
+
+## Consistency patterns
+- Compensating active (Undo)
+- Retry ลองใหม่ไปเรื่อยๆ จนกว่าจะ Timeout
+- Ignore ไม่ต้องไปสนใจ
+- Restart เริ่มทำตั้งแต่ต้นใหม่
+- Tentative operation (เดี๋ยวค่อยมา Adjust กันใหม่)
+
+## Event sourcing
+- นึกภาพถึง Blockchain คือการเรียก Event เป็น blocks เรียงกันไปเป็น chain
+- ลำดับของ events จะเก็บไว้ที่ `Event store`
+- Can decouple services (query and command)
+
+## CRUD -> CQRS (การแยกการทำงานตาม Operation)
+แยกเป็น `Read Service` กับ `Write Service` เพื่อไม่ใช้เกิด Deadlock เมื่อ DB ก้อนเดียวมีการ R/W พร้อมกันเป็นจำนวนมาก
+- C,U,D เรียกใหม่เป็น command
+- R เรียนใหม่เป็น Query 
+
+## NoSQL
+- Document
+- Key-Value
+- Column base
+- Graph
 
 ## Other notes
 - Line App ใช้ Kafka เป็นตัวส่ง Message ทั้งหมด
