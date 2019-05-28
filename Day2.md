@@ -67,13 +67,41 @@ c = a + b
 - C,U,D เรียกใหม่เป็น command
 - R เรียนใหม่เป็น Query 
 
+## Query data from multiple services
+- API composition
+- Cold cata from services
+- CQRS (Command Query Responsibility Segregation)
+
 ## NoSQL
 - Document
 - Key-Value
 - Column base
 - Graph
 
+## Integrate services with Uer Interface
+- ใช้ `BFF` (Backend For Frontend)
+- ใช้ Microfrontend
+- แต่ละทีมทำตั้งแต่ Frontend ยัน Backend (แต่ทุกทีมทำ Product เดียวกันนะ)
+
+### Zipkin
+- ทำเรื่อง tracing system
+- ต้องไป enable ในแต่ละ service state
+- https://zipkin.apache.org/
+
+### Tracing
+- แต่ละ Request สมมติว่าใช้เวลา 10วิ เรียกเป็น 1 Trace
+- ในแต่ละ Trace มีหลายขั้นตอน แต่ละขั้นตอนเรียกว่า SPAN
+- เชื่อมโยงกันโดยใช้ Tracing ID
+
+### Microservice 1.0
+- `Configuration` ใช้ Config Server (Spring Cloud Config Server)
+- `Service Discovery`
+- `Fault Tolerance`
+- `Tracing and Visibility`
+
 ## Other notes
+- อะไรก็ตามที่ขึ้นต้นว่า General แม่งหน้ากลัวมาก (Purpose มันไม่ชัดเจน)
+- เมื่อเจอปัญหาเราควรแก้ที่ปัญหาที่แท้จริง ไม่ใช่แค่ Work Around
 - Line App ใช้ Kafka เป็นตัวส่ง Message ทั้งหมด
 - อันดับ DBMS ที่นิยมมากที่สุด https://db-engines.com/en/ranking
 - https://grpc.io
