@@ -10,10 +10,11 @@
 - เป็น Syncronuos รูปแบบหนึ่ง
 
 ### 12 Factor App
-1. ...
 9. **Disposability** มีความทนทานถึงขีดสุด ด้วยการ Start ได้อย่างรวดเร็ว และ Shutdown อย่างสง่างาม
 > เพิ่มเติม https://12factor.net.
+
 ---
+
 ## Asynchronous
 ### Messaging pattern
 - ต้องประกอบด้วย ผู้ส่ง -> คนกลาง -> ผู้รับ
