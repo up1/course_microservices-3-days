@@ -35,8 +35,23 @@ c = a + b
 - มีความซับซ้อนสูง
 - Single point of failure
 
+## NoSQL
+- Document
+- Key-Value
+- Column base
+- Graph
+
+### CAP Theorem
+- คือ Consistency, Availability, Partition Tolerance
+- ข้อแม้คือเลือกได้แค่ 2 ใน 3 อย่าง
+- RDMS ใช้แค่ Consistency กับ Availability
+- ถ้าเลือก C, P ระบบต้อง Sync กัน
+- ฝากเช็คธนาคารทำไมไม่ Consistency? เพราะใช้ Cron Job รันตอนเที่ยง ทำให้ฝากวันนี้หลังบ่ายอาจได้พรุ่งนี้
+- ในโลกของระบบแบบ Distributed จะอ้างอิงถึง CAP Theorem
+
 ## Other notes
 - Line App ใช้ Kafka เป็นตัวส่ง Message ทั้งหมด
+- อันดับ DBMS ที่นิยมมากที่สุด https://db-engines.com/en/ranking
 - https://grpc.io
 
 > *(1)* เช่นกรณีที่มีการเปลี่ยนข้อมูล Product แล้วทุกๆ Service ที่ใช้ข้อมูล Product เปลี่ยนตามด้วย
