@@ -11,10 +11,13 @@
 - กรณีที่ Client มี Request เยอะ ให้ทำ Caching ไว้ที่ฝั่ง Client แต่อาจเกิดปัญหาเครื่องข้อมูลที่ cache ไว้ จะไม่ตรงกัน
 - เป็น Syncronuos รูปแบบหนึ่ง
 
-### 12 Factor App [^1]
-1. dd
+### 12 Factor App
+1. ...
 9. **Disposability** มีความทนทานถึงขีดสุด ด้วยการ Start ได้อย่างรวดเร็ว และ Shutdown อย่างสง่างาม
-Here's a sentence with a footnote. [^1]
+> เพิ่มเติม https://12factor.net.
 
-[^1]: This is the footnote.
-[^2]: เพิ่มเติม. https://12factor.net
+
+## Asynchronous
+### Messaging pattern
+- ต้องประกอบด้วย ผู้ส่ง -> คนกลาง -> ผู้รับ
+- จะมีท่อเพื่อไว้จัดคิด
