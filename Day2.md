@@ -23,7 +23,7 @@
 - Microservices จะใช้รูปแบบนี้มาก
 - แต่ละ Service จะเป็นทั้งผู้ส่ง(Sender) และ ผู้รับ(Receiver)
 - ถ้ามี Request เข้ามาเยอะมาก แล้วมีบาง Request ที่พัง ต้องมีตัวช่วยจัดการเพราะมันเป็น un-blocking
-```
+```javascript
 a = 1
 b = 1
 c = a + b
