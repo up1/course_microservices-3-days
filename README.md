@@ -9,3 +9,6 @@
 ## Resources
 * [Service Principle](https://github.com/Yelp/service-principles)
 * [Microservices Patterns](https://microservices.io/patterns/index.html)
+* [Database ranking](https://db-engines.com/en/ranking)
+* [12 factors app](https://12factor.net/)
+* [CQRS](http://www.cqrs.nu/)
