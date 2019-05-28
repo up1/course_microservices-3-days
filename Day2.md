@@ -86,6 +86,7 @@ c = a + b
 ### Zipkin
 - ทำเรื่อง tracing system
 - ต้องไป enable ในแต่ละ service state
+- เหมาะสำหรับ Production 
 - https://zipkin.apache.org/
 
 ### Tracing
