@@ -12,3 +12,4 @@
 * [Database ranking](https://db-engines.com/en/ranking)
 * [12 factors app](https://12factor.net/)
 * [CQRS](http://www.cqrs.nu/)
+
