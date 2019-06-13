@@ -7,7 +7,7 @@
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
 ## Workshop (Build -> Ship -> Run) Docker and Kubernetes
-* Working with NodeJS
+* [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
 
 ## Resources
 * [Service Principle](https://github.com/Yelp/service-principles)
