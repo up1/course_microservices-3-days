@@ -6,6 +6,9 @@
 * [Microservices with Go](https://github.com/up1/workshop-microservice-with-go)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
+## Workshop (Build -> Ship -> Run) Docker and Kubernetes
+* Working with NodeJS
+
 ## Resources
 * [Service Principle](https://github.com/Yelp/service-principles)
 * [Microservices Patterns](https://microservices.io/patterns/index.html)
