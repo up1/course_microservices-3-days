@@ -10,8 +10,9 @@
 * [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
 
 ## Resources
-* [Service Principle](https://github.com/Yelp/service-principles)
 * [Microservices Patterns](https://microservices.io/patterns/index.html)
-* [Database ranking](https://db-engines.com/en/ranking)
+* [Microservices Testing](https://martinfowler.com/articles/microservice-testing/)
+* [Service Principle](https://github.com/Yelp/service-principles)
 * [12 factors app](https://12factor.net/)
 * [CQRS](http://www.cqrs.nu/)
+* [Saga pattern](https://microservices.io/patterns/data/saga.html)
