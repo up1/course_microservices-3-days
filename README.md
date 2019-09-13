@@ -22,7 +22,7 @@
     * [InfluxDB](https://www.influxdata.com/)
     * [Grafana](https://grafana.com/)
   * Centralize Logging
-    * [ELK stack](https://www.elastic.co/)
+    * [ELK stack](https://www.elastic.co/products/elastic-stack)
 
 ## Resources
 * [Microservices Patterns](https://microservices.io/patterns/index.html)
