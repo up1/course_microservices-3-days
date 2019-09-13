@@ -13,6 +13,7 @@
 * [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
 
 ## Observability
+  * [Demo with Java + Spring Boot](https://github.com/up1/helloworld-service)
   * Distrubuted Tracing
     * [OpenTracing](https://opentracing.io/)
     * [Zipkin](https://zipkin.io/)
