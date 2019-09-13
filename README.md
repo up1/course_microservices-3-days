@@ -17,7 +17,7 @@
   * Distrubuted Tracing
     * [OpenTracing](https://opentracing.io/)
     * [Zipkin](https://zipkin.io/)
-    * [Jaegee](https://www.jaegertracing.io/)
+    * [Jaeger](https://www.jaegertracing.io/)
   * Metrics
     * [Prometheus](https://prometheus.io/)
     * [InfluxDB](https://www.influxdata.com/)
