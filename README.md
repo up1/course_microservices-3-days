@@ -1,13 +1,13 @@
 # Course microservices 3 days
 
-## Event sourcing with Kafka + Golang
-* https://github.com/up1/demo-event-sourcing-with-golang
-
 ## Workshops
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
 * [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Go](https://github.com/up1/workshop-microservice-with-go)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
+
+## Event sourcing with Kafka + Golang
+* https://github.com/up1/demo-event-sourcing-with-golang
 
 ## Workshop (Build -> Ship -> Run) Docker and Kubernetes
 * [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
