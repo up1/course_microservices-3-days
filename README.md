@@ -40,4 +40,4 @@
   
 
 ## Historical
-StreamIT|Skooldio|KBTG|TMB|Exxonmobil|KTBCS|AYCAP|BAY|ThaiBev|PTT
+StreamIT|Skooldio|3BB|KBTG|TMB|Exxonmobil|KTBCS|AYCAP|BAY|ThaiBev|PTT
