@@ -9,6 +9,9 @@
 ## Event sourcing with Kafka + Golang
 * https://github.com/up1/demo-event-sourcing-with-golang
 
+## RabbitMQ with Golang
+* https://github.com/up1/demo-rabbitmq-topic
+
 ## Workshop (Build -> Ship -> Run) Docker and Kubernetes
 * [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
 
