@@ -16,6 +16,7 @@
 * [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
 
 ## Observability
+  * [Demo tracing with Messaging server (Event-based)](https://www.somkiat.cc/distribuited-tracing-with-opentelemetry/)
   * [Demo with Java + Spring Boot](https://github.com/up1/helloworld-service)
   * Distrubuted Tracing
     * [OpenTracing](https://opentracing.io/)
