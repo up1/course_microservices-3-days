@@ -1,4 +1,8 @@
-# Course microservices 3 days
+# Course microservices workshop
+
+## Slides
+* [2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
+* 2 days of Microservices Develop & Testing & Deploy
 
 ## Workshops
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
