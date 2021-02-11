@@ -7,6 +7,7 @@
 * Reference websites
   * [Service principles](https://github.com/Yelp/service-principles)
   * [Microservices patterns](https://microservices.io/)
+  * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Workshops
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
