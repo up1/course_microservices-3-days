@@ -1,12 +1,11 @@
 # Course microservices workshop
 
-## Slides
-* [2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
-  * [Playground of workshop](https://miro.com/app/board/o9J_lUp3Ttc=/)
-  * Reference websites
-    * [Service principles](https://github.com/Yelp/service-principles)
-    * [Microservices patterns](https://microservices.io/)
-* 2 days of Microservices Develop & Testing & Deploy
+## Slides and Resources
+* [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
+* [Playground of workshop](https://miro.com/app/board/o9J_lUp3Ttc=/)
+* Reference websites
+  * [Service principles](https://github.com/Yelp/service-principles)
+  * [Microservices patterns](https://microservices.io/)
 
 ## Workshops
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
