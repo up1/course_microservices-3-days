@@ -2,6 +2,7 @@
 
 ## Slides and Resources
 * [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
+* [Slide :: Integration patterns](https://github.com/up1/course_microservices-3-days/blob/master/slide/INTEGRATION-PATTERN-NOTE.pdf)
 * [Playground of workshop](https://miro.com/app/board/o9J_lUp3Ttc=/)
 * [Q/A](https://pigeonhole.at/QTPV52)
 * [Workshop](https://github.com/up1/course_microservices-3-days/blob/master/slide/01-DESIGN-MICROSERVICE-WORKSHOP.pdf)
