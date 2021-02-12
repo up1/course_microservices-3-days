@@ -3,9 +3,12 @@
 ## Slides and Resources
 * [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
 * [Playground of workshop](https://miro.com/app/board/o9J_lUp3Ttc=/)
+* [Q/A](https://pigeonhole.at/QTPV52)
+* [Workshop](https://github.com/up1/course_microservices-3-days/blob/master/slide/01-DESIGN-MICROSERVICE-WORKSHOP.pdf)
 * Reference websites
   * [Service principles](https://github.com/Yelp/service-principles)
   * [Microservices patterns](https://microservices.io/)
+  * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Workshops
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
