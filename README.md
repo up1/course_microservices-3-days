@@ -13,8 +13,9 @@
 
 ## Workshops
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
-* [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
+* [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
 * [Microservices with Go](https://github.com/up1/workshop-microservice-with-go)
+* [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
 ## Event sourcing with Kafka + Golang
