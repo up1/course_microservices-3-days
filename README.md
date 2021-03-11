@@ -17,11 +17,15 @@
 * [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
-## Event sourcing with Kafka + Golang
+## Event sourcing with Kafka + Golang => Topic
 * https://github.com/up1/demo-event-sourcing-with-golang
 
-## RabbitMQ with Golang
+## ActiveMQ with Java + Spring Boot => Queue
+* https://github.com/up1/demo-java-queue-activemq
+
+## RabbitMQ with Golang => Custom Topic and Queue
 * https://github.com/up1/demo-rabbitmq-topic
+
 
 ## Workshop (Build -> Ship -> Run) Docker and Kubernetes
 * [Working with NodeJS](https://github.com/up1/demo-docker-k8s)
