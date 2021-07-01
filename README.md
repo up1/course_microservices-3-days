@@ -13,12 +13,17 @@
   * [Microservices patterns](https://microservices.io/)
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
-## Workshops
+## Microservices Workshop
 * [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
 * [Microservices with Go](https://github.com/up1/workshop-microservice-with-go)
 * [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
+
+## CI/CD workshop
+* [Go](https://github.com/up1/workshop-devops-go)
+* [NodeJS](https://github.com/up1/workshop-nodejs-ci-cd)
+* [Java](https://github.com/up1/workshop-java-web-tdd)
 
 ## Event sourcing with Kafka + Golang => Topic
 * https://github.com/up1/demo-event-sourcing-with-golang
