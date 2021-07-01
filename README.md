@@ -27,6 +27,7 @@
 
 ## Microservices workshop day 2 (multiple services)
 * [With Go](https://github.com/up1/microservices-workshop-with-go)
+* [Demo with JWT](https://github.com/up1/demo-jwt-go)
 
 ## Event sourcing with Kafka + Golang => Topic
 * https://github.com/up1/demo-event-sourcing-with-golang
