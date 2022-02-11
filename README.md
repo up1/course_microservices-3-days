@@ -70,4 +70,4 @@
   * http://www.mbtest.org/
 
 ## Historical
-StreamIT|Skooldio|3BB|KBTG|TMB|Exxonmobil|KTBCS|AYCAP|BAY|ThaiBev|PTT|Big-C
+Skooldio|StreamIT|3BB|KBTG|TMB|Exxonmobil|KTBCS|AYCAP|BAY|ThaiBev|PTT|Big-C|Tencent Thailand
