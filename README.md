@@ -1,8 +1,5 @@
 # Course microservices workshop
 
-## Interactive board
-* [Miro :: Microservices](https://miro.com/welcomeonboard/NzBKV2JabE5qN1VkN085cDNRMW9VZTRrZUFTbjBvU1B1ODBzckV3bjAyZkJrQUg1bkxYNnlKbVRiWkUxVENRMXwzMDc0NDU3MzQ3NDMwMDEwMzE3)
-
 ## Slides and Resources
 * [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
 * [Slide :: 2 days of Microservices Develop, Test and Deploy](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DEVELOP-DEPLOY.pdf)
