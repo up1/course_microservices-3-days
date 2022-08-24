@@ -1,8 +1,8 @@
 # Course microservices workshop
 
 ## Slides and Resources
-* [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN.pdf)
-* [Slide :: 2 days of Microservices Develop, Test and Deploy](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DEVELOP-DEPLOY.pdf)
+* [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DESIGN-MAIN-2022.pdf)
+* [Slide :: 3 days of Microservices Develop, Test and Deploy](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-DEVELOP-DEPLOY.pdf)
 * [Slide :: Integration patterns](https://github.com/up1/course_microservices-3-days/blob/master/slide/INTEGRATION-PATTERN-NOTE.pdf)
 * [Workshop](https://github.com/up1/course_microservices-3-days/blob/master/slide/01-DESIGN-MICROSERVICE-WORKSHOP.pdf)
 * Reference websites
