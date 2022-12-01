@@ -10,12 +10,13 @@
   * [Microservices patterns](https://microservices.io/)
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
-## Microservices Workshop day 1 (properties)
+## Microservices Workshop(properties)
 * [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
 * [Microservices with Go](https://github.com/up1/workshop-microservice-with-go)
 * [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
+* [Workshop 2022](https://github.com/up1/workshop-microservices-2022)
 
 ## CI/CD workshop
 * [Go](https://github.com/up1/workshop-devops-go)
