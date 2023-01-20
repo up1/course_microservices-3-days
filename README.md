@@ -12,9 +12,9 @@
 
 ## Microservices Workshop
 * [Workshop 2022](https://github.com/up1/workshop-microservices-2022)
-* [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
 * [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
-* [Microservices with Go](https://github.com/up1/workshop-microservice-with-go)
+* [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
+* [Microservices with Go 2019](https://github.com/up1/workshop-microservice-with-go)
 * [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
