@@ -18,6 +18,9 @@
 * [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
+## Microservices Testing
+* [Component and Contract Testing](https://github.com/up1/course-contract-testing)
+
 ## CI/CD workshop
 * [Go](https://github.com/up1/workshop-devops-go)
 * [NodeJS](https://github.com/up1/workshop-nodejs-ci-cd)
