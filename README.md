@@ -41,6 +41,7 @@
 
 ## Observability
   * [Demo tracing with Messaging server (Event-based)](https://www.somkiat.cc/distribuited-tracing-with-opentelemetry/)
+  * [Spring Boot](https://github.com/up1/workshop-springboot-observability)
   * [Demo with Java + Spring Boot](https://github.com/up1/helloworld-service)
   * Distrubuted Tracing
     * [OpenTracing](https://opentracing.io/)
