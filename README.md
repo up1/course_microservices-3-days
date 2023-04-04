@@ -11,12 +11,8 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
-* [Workshop 2022](https://github.com/up1/workshop-microservices-2022)
-* [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
-* [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
-* [Microservices with Go 2019](https://github.com/up1/workshop-microservice-with-go)
-* [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
-* [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
+* [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
+* [Workshop with Java and NodeJS](https://github.com/up1/workshop-microservices-2023)
 
 ## Microservices Testing
 * [Component and Contract Testing](https://github.com/up1/course-contract-testing)
@@ -56,6 +52,13 @@
     * [Grafana](https://grafana.com/)
   * Centralize Logging
     * [ELK stack](https://www.elastic.co/products/elastic-stack)
+
+## Legacy Workshop
+* [Microservices with NodeJS](https://github.com/up1/microservice-workshop)
+* [Microservices with Go 2021](https://github.com/up1/workshop-microservices-golang-2021)
+* [Microservices with Go 2019](https://github.com/up1/workshop-microservice-with-go)
+* [Microservices with .Net Core](https://github.com/up1/workshop-microservice-with-dot-net-core)
+* [Microservices with Java](https://github.com/up1/workshop-microservice-with-java)
 
 ## Resources
 * [Microservices Patterns](https://microservices.io/patterns/index.html)
