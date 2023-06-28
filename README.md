@@ -14,6 +14,7 @@
 * [Workshop :: Develop + Testing + Deploy](https://github.com/up1/workshop-develop-microservices-2023)
   * C#
   * NodeJS 
+* [Basic Workshop with .Net C#](https://github.com/up1/workshop-microservice-with-dot-net-core)
 * [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
 * [Workshop with Java and NodeJS](https://github.com/up1/workshop-microservices-2023)
 
