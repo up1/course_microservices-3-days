@@ -11,6 +11,9 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [Workshop :: Develop + Testing + Deploy](https://github.com/up1/workshop-develop-microservices-2023)
+  * C#
+  * NodeJS 
 * [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
 * [Workshop with Java and NodeJS](https://github.com/up1/workshop-microservices-2023)
 
