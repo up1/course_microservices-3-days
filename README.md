@@ -17,6 +17,8 @@
 * [Workshop with Java and NodeJS](https://github.com/up1/workshop-microservices-2023)
 * [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
 
+## Circuit Breaker
+* [NodeJS](https://github.com/up1/workshop-circuit-breaker)
 
 ## Microservices Testing
 * [Component and Contract Testing](https://github.com/up1/course-contract-testing)
