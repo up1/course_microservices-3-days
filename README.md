@@ -13,9 +13,10 @@
 ## Microservices Workshop
 * [Workshop :: Develop + Testing + Deploy](https://github.com/up1/workshop-develop-microservices-2023)
   * C#
-  * NodeJS 
-* [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
+  * NodeJS
 * [Workshop with Java and NodeJS](https://github.com/up1/workshop-microservices-2023)
+* [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
+
 
 ## Microservices Testing
 * [Component and Contract Testing](https://github.com/up1/course-contract-testing)
