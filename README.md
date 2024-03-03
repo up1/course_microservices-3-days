@@ -13,8 +13,15 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [Workshop :: .NET 2024](https://github.com/up1/workshop-dotnet-msa-2024)
+  * Circuit Breaker with Polly
+    * Metric
+    * Grafana
+  * Application metrics
+    * Prometheus
+    * Grafana  
 * [Workshop :: Develop + Testing + Deploy](https://github.com/up1/workshop-develop-microservices-2023)
-  * C#
+  * C# .NET
   * NodeJS
 * [Workshop with Java and NodeJS](https://github.com/up1/workshop-microservices-2023)
 * [Basic Workshop](https://github.com/up1/workshop-microservices-2022)
