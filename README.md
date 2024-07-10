@@ -13,6 +13,20 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [Workshop :: July 2024](https://github.com/up1/workshop-msa-develop-dotnet)
+  * .NET 8
+  * Modular + MediatR
+  * API gateway with Kong
+    * Services
+    * Routes
+    * Plugins
+      * OpenTelemetry
+      * Http Log
+      * Prometheus   
+  * Observability
+    * Metric with Prometheus
+    * Tracing with Tempo
+    * Logging with Loki and Fluentbit   
 * [Workshop :: March 2024](https://github.com/up1/workshop-msa-2024)
   * Circuit Breaker with Polly
     * Metric
