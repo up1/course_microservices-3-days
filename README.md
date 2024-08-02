@@ -13,6 +13,11 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [Microservice 2024/08](https://github.com/up1/workshop-microservices-202308)
+  * Python
+  * Java
+  * Go
+  * API Gateway Kong 
 * [Workshop :: July 2024](https://github.com/up1/workshop-msa-develop-dotnet)
   * .NET 8
   * Modular + MediatR
