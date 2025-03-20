@@ -13,6 +13,15 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [Microservice 2025/03]
+  * [Go service](https://github.com/up1/workshop-develop-services-2025)
+    * REST API
+    * Design-first with Swagger or OpenAPI
+    * Service catalog with Backstage
+    * Observability with OpenTelemetry
+      * Tracing with Jaeger
+      * Metric with Prometheus
+      * Loging with Structured log and Loki 
 * [Microservice 2024/08](https://github.com/up1/workshop-microservices-202308)
   * Python
   * Java
