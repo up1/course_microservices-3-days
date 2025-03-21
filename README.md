@@ -21,7 +21,13 @@
     * Observability with OpenTelemetry
       * Tracing with Jaeger
       * Metric with Prometheus
-      * Loging with Structured log and Loki 
+      * Loging with Structured log and Loki
+  * [AsyncAPI](https://github.com/up1/workshop-asyncapi-services-2025)
+    * Go
+    * Kafka
+    * Tracing with OpenTelemetry and Jaeger
+  * Testing
+    * [Contract Testing](https://github.com/up1/workshop-contract-testing-2025)    
 * [Microservice 2024/08](https://github.com/up1/workshop-microservices-202308)
   * Python
   * Java
