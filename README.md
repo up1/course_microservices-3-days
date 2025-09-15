@@ -13,6 +13,14 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [Microservices 2025/09](https://github.com/up1/workshop-microservices-202509)
+  * API Gateway with Kong
+  * Auth service with golang
+  * Python service
+  * NodeJS service
+  * Observability
+    * Distributed tracing with LGTM and Jaeger
+    * Application metric with Prometheus  
 * Microservice 2025/03
   * [Go service](https://github.com/up1/workshop-develop-services-2025)
     * REST API
