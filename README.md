@@ -20,7 +20,14 @@
   * NodeJS service
   * Observability
     * Distributed tracing with LGTM and Jaeger
-    * Application metric with Prometheus  
+    * Application metric with Prometheus
+  * [CDC workshop](https://github.com/up1/workshop-kafka-2025)
+    * Debezium connect
+      * date format
+      * decimal format 
+    * MySQL
+    * Apache Kafka
+    * Consumer with Python
 * Microservice 2025/03
   * [Go service](https://github.com/up1/workshop-develop-services-2025)
     * REST API
