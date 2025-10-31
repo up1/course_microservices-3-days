@@ -13,6 +13,11 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* [2025/10/31](https://github.com/up1/workshop-event-based-golang)
+  * Go + Event-based with Watermill
+    * RabbitMQ
+    * Tracing with Jaeger 
+  * Contract testing with Go 
 * [Microservices 2025/09](https://github.com/up1/workshop-microservices-202509)
   * API Gateway with Kong
   * Auth service with golang
