@@ -1,6 +1,7 @@
 # Course microservices workshop
 
 ## Slides and Resources
+* [Slide 2026 :: Miroservices Workshop](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-WORKSHOP-2026.pdf)
 * [Slide 2025 :: Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-2025-DESIGN.pdf)
 * [Slide 2023 :: Develop + Testing + Deploy](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-2023-DEVELOP-print.pdf)
 * [Slide :: 2 days of Microservices Design](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-MAIN-2022.pdf)
