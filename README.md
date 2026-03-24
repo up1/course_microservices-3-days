@@ -14,6 +14,14 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* 2026/03
+  * [Tracking system](https://github.com/up1/demo-fullstack-reactjs-python)
+    * ReactJS
+    * Python and FastAPI
+    * API gateway with NGINX
+    * PostgreSQL
+    * Caching with Redis
+    * Distributed tracking with Jaeger   
 * [2025/10/31](https://github.com/up1/workshop-event-based-golang)
   * Go + Event-based with Watermill
     * RabbitMQ
