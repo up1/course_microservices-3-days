@@ -21,7 +21,12 @@
     * API gateway with NGINX
     * PostgreSQL
     * Caching with Redis
-    * Distributed tracking with Jaeger   
+    * Distributed tracking with Jaeger
+  * [Async sharing data](https://github.com/up1/demo-async-sharing-data-rabbitmq)
+    * Account service :: .NET 10 with PostgreSQL
+    * Call center service :: NodeJS with MongoDB
+    * Reporting service :: Python with MySQL
+    * Distributed tracking with Jaeger
 * [2025/10/31](https://github.com/up1/workshop-event-based-golang)
   * Go + Event-based with Watermill
     * RabbitMQ
