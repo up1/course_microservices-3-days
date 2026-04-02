@@ -14,6 +14,11 @@
   * [Microservices techniques: Export data out of the monolith](https://divad4686.github.io/2018/11/26/microservices-techniques.html)
 
 ## Microservices Workshop
+* 2026/04
+  * [API Caching with redis](https://github.com/up1/demo-api-db-redis-caching)
+    * NodeJS + Express
+    * PostgreSQL
+    * Caching with Redis    
 * 2026/03
   * [Tracking system](https://github.com/up1/demo-fullstack-reactjs-python)
     * ReactJS
