@@ -1,4 +1,4 @@
-# Course microservices workshop
+# Course microservices workshop 2026
 
 ## Slides and Resources
 * [Slide 2026 :: Miroservices Workshop](https://github.com/up1/course_microservices-3-days/blob/master/slide/MICROSERVICE-WORKSHOP-2026.pdf)
